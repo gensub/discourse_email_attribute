@@ -1,0 +1,21 @@
+plugins:
+  openid_connect_enabled:
+    default: false
+  openid_connect_discovery_document:
+    default: ""
+  openid_connect_client_id:
+    default: ""
+  openid_connect_client_secret:
+    default: ""
+  openid_connect_allow_association_change:
+    default: false
+  openid_connect_authorize_scope:
+    default: "openid"
+  openid_connect_verbose_logging:
+    default: false
+  openid_connect_token_scope:
+    default: ""
+  openid_connect_error_redirects:
+    default: ''
+    type: list
+    list_type: secret
