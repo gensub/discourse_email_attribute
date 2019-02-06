@@ -166,7 +166,9 @@ module ::OmniAuth
       private
 
       def callback_url
-        verbose_log("callback_url\n\n#{(full_host +'---'+ script_name +'---'+ callback_path).to_yaml}")
+        verbose_log("callback_url\n\n#{full_host.to_yaml}")
+        verbose_log("callback_url\n\n#{script_name.to_yaml}")
+        verbose_log("callback_url\n\n#{callback_path.to_yaml}")
         full_host + script_name + callback_path
       end
 
