@@ -169,7 +169,6 @@ module ::OmniAuth
         verbose_log("callback_url\n\n#{full_host.to_yaml}")
         verbose_log("callback_url\n\n#{script_name.to_yaml}")
         verbose_log("callback_url\n\n#{callback_path.to_yaml}")
-        verbose_log("NAME - \n\n#{data_source['name'].to_yaml}")
         full_host + script_name + callback_path
       end
 
